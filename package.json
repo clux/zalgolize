@@ -11,7 +11,7 @@
   "main": "zalgo.js",
   "scripts": {
     "test": "nodeunit --reporter=verbose test/*.js",
-    "precoverage": "jscoverage zalgolize.js",
+    "precoverage": "jscoverage zalgo.js",
     "coverage": "ZALGO_COV=1 nodeunit --reporter=lcov test/*.js",
     "coveralls": "npm run coverage | coveralls"
   },
