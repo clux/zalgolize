@@ -1,0 +1,31 @@
+{
+  "name": "zalgolize",
+  "description": "Uniform-clustered zalgolizer",
+  "author": "Eirik Albrigtsen <analsandblaster@gmail.com>",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "clux/zalgolize"
+  },
+  "keywords": [],
+  "main": "zalgo.js",
+  "scripts": {
+    "test": "nodeunit --reporter=verbose test/*.js",
+    "precoverage": "jscoverage zalgolize.js",
+    "coverage": "ZALGO_COV=1 nodeunit --reporter=lcov test/*.js",
+    "coveralls": "npm run coverage | coveralls"
+  },
+  "dependencies": {
+    "trials": "~0.1.2"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "jscoverage": "^0.5.9",
+    "nodeunit": "^0.9.1",
+    "subset": "^0.1.6"
+  },
+  "bugs": {
+    "url": "http://github.com/clux/zalgolize/issues"
+  },
+  "license": "MIT"
+}
