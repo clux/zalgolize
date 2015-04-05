@@ -28,7 +28,7 @@ zalgo('intense, clustered zalgolization', 0.2, [10, 5, 10])
 
 A windows command line is impenetrable by zalgo and will display question marks instead.
 
-Finally, if you would like to sanitize / attempt to exorcise such a string, you can take the difference with the characters available via the exported `souls` function.
+Finally, if you would like to sanitize / attempt to exorcise such a string, you can take the difference with the characters available via the exported `souls` function. Note, due to quirk with handling these characters in javascript, this may prove very difficult.
 
 ## License
 MIT-Licensed. See LICENSE file for details.
