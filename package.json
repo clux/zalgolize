@@ -9,17 +9,16 @@
   },
   "keywords": [],
   "main": "zalgo.js",
+  "bin" : "bin.js",
   "scripts": {
     "test": "nodeunit --reporter=verbose test/*.js",
     "precoverage": "jscoverage zalgo.js",
-    "coverage": "ZALGO_COV=1 nodeunit --reporter=lcov test/*.js",
-    "coveralls": "npm run coverage | coveralls"
+    "coverage": "ZALGO_COV=1 nodeunit --reporter=lcov test/*.js"
   },
   "dependencies": {
     "trials": "~0.1.2"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
     "jscoverage": "^0.5.9",
     "nodeunit": "^0.9.1",
     "subset": "^0.1.6"

@@ -30,5 +30,14 @@ A windows command line is impenetrable by zalgo and will display question marks 
 
 Finally, if you would like to sanitize / attempt to exorcise such a string, you can take the difference with the characters available via the exported `souls` function. Note, due to quirk with handling these characters in javascript, this may prove very difficult.
 
+## CLI
+Simple command line usage is available if you globally install the module:
+
+```sh
+npm install zalgolize -g
+zalgolize we are in the beam
+w̫̠ȇͭ̆̒͛ are ̷̨̰̃̆͐̾̅i͐̅̓n ̨͡the̪ͥ̍͑ ͫ̑̄b̫̲̙͕eam
+```
+
 ## License
 MIT-Licensed. See LICENSE file for details.
