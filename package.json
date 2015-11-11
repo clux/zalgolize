@@ -2,14 +2,14 @@
   "name": "zalgolize",
   "description": "Uniform-clustered zalgolizer",
   "author": "Eirik Albrigtsen <analsandblaster@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "clux/zalgolize"
   },
   "keywords": [],
   "main": "zalgo.js",
-  "bin" : "bin.js",
+  "bin": "bin.js",
   "scripts": {
     "test": "nodeunit --reporter=verbose test/*.js",
     "precoverage": "jscoverage zalgo.js",
