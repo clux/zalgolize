@@ -43,7 +43,7 @@ cat README | zalgolize
 ```
 
 ```sh
-cowsay -f sodomized-sheep $(lsb_release -ds) | zalgolize | lolcat
+cowsay -f sodomized-sheep $(lsb_release -ds) | zalgolize -p 0.1 | lolcat
 ```
 
 More information is available on the [man page](./manpage.md).
