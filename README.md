@@ -42,6 +42,10 @@ w̫̠ȇͭ̆̒͛ are ̷̨̰̃̆͐̾̅i͐̅̓n ̨͡the̪ͥ̍͑ ͫ̑̄b̫̲̙͕eam
 cat README | zalgolize
 ```
 
+```sh
+cowsay -f sodomized-sheep $(lsb_release -ds) | zalgolize | lolcat
+```
+
 More information is available on the [man page](./manpage.md).
 
 ## License
