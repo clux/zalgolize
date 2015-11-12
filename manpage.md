@@ -21,11 +21,15 @@ Reads text from stdin and zalgolizes it.
 ## EXAMPLES
 Zalgolize small pieces of text
 
-`echo "HE COMES" | zalgolize`
+`zalgolize HE COMES`
 
 Zalgolize an entire file with high clustering probability
 
 `cat README | zalgolize -p 0.5`
+
+Make a sweet MOTD
+
+`cowsay -f sodomized-sheep $(lsb_release -ds) | zalgolize -p 0.1 | lolcat`
 
 ## INSTALLATION
 Install globally through npm

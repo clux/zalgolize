@@ -22,11 +22,15 @@ Reads text from stdin and zalgolizes it\.
 .P
 Zalgolize small pieces of text
 .P
-\fBecho "HE COMES" | zalgolize\fP
+\fBzalgolize HE COMES\fP
 .P
 Zalgolize an entire file with high clustering probability
 .P
 \fBcat README | zalgolize \-p 0\.5\fP
+.P
+Make a sweet MOTD
+.P
+\fBcowsay \-f sodomized\-sheep $(lsb_release \-ds) | zalgolize \-p 0\.1 | lolcat\fP
 .SH INSTALLATION
 .P
 Install globally through npm
