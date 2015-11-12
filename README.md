@@ -34,10 +34,15 @@ Finally, if you would like to sanitize / attempt to exorcise such a string, you 
 Simple command line usage is available if you globally install the module:
 
 ```sh
-npm install zalgolize -g
 zalgolize we are in the beam
 w̫̠ȇͭ̆̒͛ are ̷̨̰̃̆͐̾̅i͐̅̓n ̨͡the̪ͥ̍͑ ͫ̑̄b̫̲̙͕eam
 ```
+
+```sh
+cat README | zalgolize
+```
+
+More information is available on the [man page](./manpage.md).
 
 ## License
 MIT-Licensed. See LICENSE file for details.

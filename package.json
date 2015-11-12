@@ -8,14 +8,17 @@
     "url": "clux/zalgolize"
   },
   "keywords": [],
+  "man": "zalgolize.1",
   "main": "zalgo.js",
   "bin": "bin.js",
   "scripts": {
     "test": "nodeunit --reporter=verbose test/*.js",
     "precoverage": "jscoverage zalgo.js",
-    "coverage": "ZALGO_COV=1 nodeunit --reporter=lcov test/*.js"
+    "coverage": "ZALGO_COV=1 nodeunit --reporter=lcov test/*.js",
+    "man": "marked-man manpage.md -o zalgolize.1"
   },
   "dependencies": {
+    "minimist": "^1.2.0",
     "trials": "~0.1.2"
   },
   "devDependencies": {

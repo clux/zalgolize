@@ -1,0 +1,44 @@
+.TH "ZALGOLIZE" "1" "November 2015" "" ""
+.SH "NAME"
+\fBzalgolize\fR
+.P
+H̬̺̣̫E̤̱̖̹̭͗̾̉ ̆ͭ̒͂C̄̚O̶͡M̸͟Ẹ̘̻̰S̩̥͔̫
+.SH SYNOPSIS
+.P
+\fBzalgolize [OPTION]\.\.\.\fP
+.SH DESCRIPTION
+.P
+Reads text from stdin and zalgolizes it\.
+.SH OPTIONS
+.P
+\fB\-p\fP    Probability that a character will be zalgolized (default 0\.15)
+.P
+\fB\-u\fP    The maximum amount of upper souls appended to a zalgolized character (default 5)
+.P
+\fB\-m\fP    The maximum amount of middle souls appended to a zalgolized character (default 3)
+.P
+\fB\-l\fP    The maximum amount of upper souls appended to a zalgolized character (default 5)
+.SH EXAMPLES
+.P
+Zalgolize small pieces of text
+.P
+\fBecho "HE COMES" | zalgolize\fP
+.P
+Zalgolize an entire file with high clustering probability
+.P
+\fBcat README | zalgolize \-p 0\.5\fP
+.SH INSTALLATION
+.P
+Install globally through npm
+.P
+.RS 2
+.nf
+npm install \-g zalgolize
+.fi
+.RE
+.SH CLUSTERING
+.P
+This is a uniform\-clustered zalgolizer\. It picks up to a specified number of symbols from an upper, middle and lower array of characters/souls at uniform randomness (with probability \fBp\fP), or it picks no symbols at all (with probability \fB1\-p\fP)\. This creates a clustered zalgolization that can be tweaked with the parameters\.
+.SH BUGS
+.P
+Please report bugs at \fIhttps://github\.com/clux/zalgolize/issues\fR
