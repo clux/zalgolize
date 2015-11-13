@@ -2,7 +2,7 @@
   "name": "zalgolize",
   "description": "Uniform-clustered zalgolizer",
   "author": "Eirik Albrigtsen <analsandblaster@gmail.com>",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "repository": {
     "type": "git",
     "url": "clux/zalgolize"
