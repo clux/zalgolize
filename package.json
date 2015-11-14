@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "minimist": "^1.2.0",
-    "trials": "~0.1.2"
+    "trials": "^1.0.0"
   },
   "devDependencies": {
     "jscoverage": "^0.5.9",
