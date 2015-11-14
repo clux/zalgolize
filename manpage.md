@@ -40,4 +40,4 @@ Install globally through npm
 This is a uniform-clustered zalgolizer. It picks up to a specified number of symbols from an upper, middle and lower array of characters/souls at uniform randomness (with probability `p`), or it picks no symbols at all (with probability `1-p`). This creates a clustered zalgolization that can be tweaked with the parameters.
 
 ## BUGS
-Please report bugs [at](https://github.com/clux/zalgolize/issues)
+Please report bugs at [https://github.com/clux/zalgolize/issues](https://github.com/clux/zalgolize/issues)
